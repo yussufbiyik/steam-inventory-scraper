@@ -1,0 +1,29 @@
+{
+  "name": "invsearch",
+  "version": "0.0.1",
+  "description": "a console based program to search through players inventories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/yussuf.jpg/steam-inventory-search.git"
+  },
+  "keywords": [
+    "steam",
+    "node.js"
+  ],
+  "author": "yussuf.jpg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/yussuf.jpg/steam-inventory-search/issues"
+  },
+  "homepage": "https://gitlab.com/yussuf.jpg/steam-inventory-search#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "get-steam-inventory": "^2.0.0",
+    "request": "^2.88.0"
+  }
+}
