@@ -1,25 +1,27 @@
+# Steam Inventory Search 
 
-# Steam Inventory Search
+## Beginning
+Create a folder named saves.
+Open **terminal** in the project directory then type;
+`npm install`
 
-### Searching feature is `avaliable`.
-## How to use ?
-#### First open directory with command prompt then install dependency.
-```
-npm i get-steam-inventory
-```
-#### edit 
-`config.json`
+## Configuring 
 
-#####  game -> game id,
+**Game** is for game id
+**Modes** are explained in the next section
+**Context id** is 2 by default
+**SearchFor** is the place where you need to put item name into
 
-#####  mode -> scrape/search/list,
+##  Modes
+##### Out of all 3 modes only scrape saves data.
 
-#####  context id -> 2 by default,
+### Scrape
+Scrapes inventories then stores in **./saves**
+### Search
+Searches inventories and says if user has the item or not.
+### List
+Lists the all inventory of users in terminal **but** not saves
 
-#####  searchFor -> item name to be searched
-
-#### Finally type
-```
-node index.js
-```
-#### to command prompt.
+## Starting
+Open **terminal** in the project directory then type;
+`node index.js`
