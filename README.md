@@ -2,7 +2,7 @@
 
 ## Beginning
 Create a folder named saves.
-Open **terminal** in the project directory then type;
+Open **terminal** in the project directory then type
 `npm install`
 
 ## Configuring 
