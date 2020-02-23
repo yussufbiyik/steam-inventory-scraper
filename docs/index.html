@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Steam Inventory Scraper</title>
+</head>
+<body><br>
+    <div class="content">
+        <h1>Steam Inventory <br> Scraper</h1>
+        <span>Search, scrape, list inventories of players with ease.</span>
+        <hr>
+        <div class="inner">
+            <h2>How to use ?</h2>
+        <h3>Beginning</h3><hr>
+        <p><br>
+            <span class="inner">
+                Open terminal on <b>project directory</b>,<br><br>
+                Type <code>npm install</code>,<br><br> 
+                Open a folder named <code>'Saves'</code>,<br><br>
+                Configure settings according to the <a href="#configuring">documentation</a>,<br><br>
+                Open console on <b>project directory</b>,<br><br>
+                Type <code>node index.js</code>
+            </span>
+        </p>
+        <h3 id="configuring">Configuring Settings</h3><hr>
+        <p>
+            In this section you're going to learn meaning of every line in <code>config.json</code> file.
+            <br><br>
+            <code>config.json</code> file has a structure like this;<br><br>
+            <span class="inner">
+                <code>
+                    { <br>
+                        "game": 730, <br>
+                        "contextid":"2", <br>
+                        "searchFor":"AK-47", <br>
+                        "mode":"list" <br>
+                    }
+                </code>
+                <br><br>
+                Let's explain lines one by one.
+                <br><br>
+                <span class="inner">
+                    <code>"game": 730</code> line is for game id if you don't put the right game id you won't get right results. 
+                <br><br>
+                    <code>"contextid":"2"</code> is 2 by default. 
+                <br><br>
+                    <code>"searchFor":"item-name"</code> change the `item-name` line by your need it's `AK-47` by default. 
+                <br><br>
+                    <code>"mode":"list"</code> this line is where things get serious because there are 3 modes and every mode have a different result. Go to <a href="#modes"><b>modes</b></a> for more info about modes.
+                </span> 
+                <h4 id="modes">Modes</h4><hr>
+                <span class="inner">
+                    There are 3 different modes which does the same job but giving the results in a different way.
+                    <span class="inner"><br>
+                        <code>Scrape</code><br>
+                        <span>Scrapes inventories then stores in ./saves</span><br>
+                        <code>Search</code><br>
+                        <span>Searches inventories and says if user has the item or not.</span><br>
+                        <code>List</code><br>
+                        <span>Lists the all inventory of users in terminal but not saves</span>
+                    </span>
+                </span>
+            </span>
+        </p>
+        </div>
+    </div>
+</body>
+</html>
