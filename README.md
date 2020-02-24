@@ -41,7 +41,7 @@ Let's explain lines one by one.
 - `"searchFor":"item-name"`  change the `item-name` line by your need it's `AK-47` by default.  
   
 - `"mode":"list"`  this line is where things get serious because there are 3 modes and every mode have a different result. Go to  [**modes**](https://yussufjpg.github.io/Steam-Inventory-Scraper/#modes)  for more info about modes.
-- 
+
 #### Modes 
 ----------
 There are 3 different modes which does the same job but giving the results in a different way.  
