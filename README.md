@@ -25,12 +25,13 @@ In this section you're going to learn meaning of every line in `config.json` fil
   
 `config.json` file has a structure like this;  
   
-`{  
+```json
+{  
 "game": 730,  
 "contextid":"2",  
 "searchFor":"AK-47",  
 "mode":"list"  
-}`  
+}```  
   
 Let's explain lines one by one.  
   
