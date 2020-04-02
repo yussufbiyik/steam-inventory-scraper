@@ -1,6 +1,6 @@
 # Steam Inventory Scraper
 Search, scrape, list inventories of players with ease.
-[Follow this link](https://yussufjpg.github.io/Steam-Inventory-Scraper/) for better explanation.
+[Follow this link](https://yussufjpg.github.io/Steam-Inventory-Scraper/) for cooler explanation.
 
 ## How to use ?
 ### Beginning
@@ -13,7 +13,7 @@ Search, scrape, list inventories of players with ease.
   
 - Open a folder named `'Saves'`,  
   
-- Configure settings according to the [documentation](https://yussufjpg.github.io/Steam-Inventory-Scraper/#configuring),  
+- Configure settings according to the [documentation](https://github.com/yussufjpg/steam-inventory-scraper/blob/master/README.md#configuring-settings),  
   
 - Open console on **project directory**,  
   
@@ -42,7 +42,7 @@ Let's explain lines one by one.
   
 - `"searchFor":"item-name"`  change the `item-name` line by your need it's `AK-47` by default.  
   
-- `"mode":"list"`  this line is where things get serious because there are 3 modes and every mode have a different result. Go to  [**modes**](https://yussufjpg.github.io/Steam-Inventory-Scraper/#modes)  for more info about modes.
+- `"mode":"list"`  this line is where things get serious because there are 3 modes and every mode have a different result. Go to  [**modes**](https://github.com/yussufjpg/steam-inventory-scraper/blob/master/README.md#modes)  for more info about modes.
 
 #### Modes 
 ----------
