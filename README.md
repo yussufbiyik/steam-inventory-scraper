@@ -31,7 +31,8 @@ In this section you're going to learn meaning of every line in `config.json` fil
 "contextid":"2",  
 "searchFor":"AK-47",  
 "mode":"list"  
-}```  
+}
+```  
   
 Let's explain lines one by one.  
   
