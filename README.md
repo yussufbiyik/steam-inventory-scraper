@@ -3,7 +3,12 @@ Search, scrape, list inventories of players with ease.
 [Follow this link](https://yussufjpg.github.io/Steam-Inventory-Scraper/) for cooler explanation.
 
 ## How to use ?
-### Beginning
+### Setup
+### Simple Way(New)
+----------
+You can just run the `SETUP.bat` then you'll be good to go.
+----------
+### Long Way
 ----------
  - Open terminal on **project directory**,  
   
