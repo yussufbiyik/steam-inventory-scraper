@@ -6,7 +6,7 @@ Search, scrape, list inventories of players with ease.
 ### Setup
 ### Simple Way(New)
 ----------
-You can just run the `SETUP.bat` then you'll be good to go.
+- You can just run the `SETUP.bat` then you'll be good to go.
 ----------
 ### Long Way
 ----------
