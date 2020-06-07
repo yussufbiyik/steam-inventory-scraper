@@ -1,6 +1,5 @@
 # Steam Inventory Scraper
 Search, scrape, list inventories of players with ease.
-[Follow this link](https://yussufjpg.github.io/Steam-Inventory-Scraper/) for cooler explanation.(OUTDATED)
 
 ## Setup
 ### Simple Way(New)
